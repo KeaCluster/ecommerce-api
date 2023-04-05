@@ -9,6 +9,10 @@ This is a test Spring Boot app meant to be a base for future deploys on Railway
 Not ready for production
 > ?Could be ready for production
 
+## Read before
+
+For a full deploy explanation refer to [railway deploy setup](https://github.com/KeaCluster/springboot-railway-deploy)
+
 ### Info
 
 There's an ```application-prod.yml``` file used to save basic production config data. This will have different info depending on the platform you're making the deploy. Check it for more context. What's in there however is specifically for railway.
