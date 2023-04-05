@@ -41,7 +41,10 @@ PROD_DB_PASSWORD=PASSWORD_HERE
 PROD_DB_USERNAME=postgres
 ```
 
-Update ```src/main/resources/application.properties``` with the same info but with its own format
+Keep ```src/main/resources/application.properties``` unmodified. There's a new ```application-prod.yml``` file for production config.
+
+Also, check ```Procfile```. Maintain all application names and versions according to your ```build.gradle``` and ```settings.gradle``` files
+
 
 ## References
 
